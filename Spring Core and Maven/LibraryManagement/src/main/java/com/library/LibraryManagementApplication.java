@@ -16,7 +16,7 @@ public class LibraryManagementApplication {
                 context.getBean("bookService", BookService.class);
         service.showBooks();
 
-        BookRepository repository = context.getBean("bookRepository", BookRepository.class);
-        repository.displayBooks();
+//        BookRepository repository = context.getBean("bookRepository", BookRepository.class);
+//        repository.displayBooks();
     }
 }
